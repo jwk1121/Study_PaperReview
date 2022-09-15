@@ -6,9 +6,9 @@
 
 `>` Discriminative model(D)은 sample data가 G로 부터 만들어진 데이터가 아닌 training data에서 나왔을 확률을 추정한다.
 
-    * G의 훈련 과정은 D가 실수를 할 확률을 최대화하도록 하는 것이다. (여기서 실수란, G에서 만들어진 데이터가 training data에서 나왔을 거라고 착각(?)하게 만드는 것)
-    * G가 데이터 분포를 recovering하게 되면 D가 제대로 판별할 확률은 1/2이 된다.
-    * G와 D가 다층 퍼셉트론으로 정의된 경우, 모든 시스템은 역전파 기법(backpropagation)으로 훈련된다.
+* G의 훈련 과정은 D가 실수를 할 확률을 최대화하도록 하는 것이다. (여기서 실수란, G에서 만들어진 데이터가 training data에서 나왔을 거라고 착각(?)하게 만드는 것)
+* G가 데이터 분포를 recovering하게 되면 D가 제대로 판별할 확률은 1/2이 된다.
+* G와 D가 다층 퍼셉트론으로 정의된 경우, 모든 시스템은 역전파 기법(backpropagation)으로 훈련된다.
 
 ## Introduction
 
