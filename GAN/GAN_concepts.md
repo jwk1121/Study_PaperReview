@@ -25,7 +25,7 @@
 ### Abstract에서 말했듯이...  
 > `-`Genrative model은 다층 퍼셉트론을 통해 랜덤 노이즈를 전달하여 샘플을 생성한다.  
 `-` Discriminative model 또한 다층 퍼셉트론이다.  
-`-` GAN은 dropout과 backpropagation에 알고리즘을 기반으로 위 두개의 모델을 학습시킨다.  
+`-` GAN은 dropout과 backpropagation 알고리즘을 기반으로 위 두개의 모델을 학습시킨다.  
 `-` G를 통해 생성된 sample은 오로지 fowardpropagation을 통해 학습된다.  
 
 ## Adversarial nets
