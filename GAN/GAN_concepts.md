@@ -29,5 +29,9 @@
 `-` G를 통해 생성된 sample은 오로지 fowardpropagation을 통해 학습된다.  
 
 ## Adversarial nets
+![수식](https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-Lzv9WQqVErrkv4TUmw2%2Fuploads%2FHaQuzfKjH9FwPGzys4Om%2Ffile.png?alt=media)
 
+`>` 첫번째 항은 real data를 D에 넣었을 때의 값을 log를 취했을 때의 기댓값이다.
+
+`>` G(z)는 fake data z를 사용해 G가 data distribution을 모사하여 값을 만든다. 두번째 항의 1-D(G(z))를 log를 취했을 때의 기댓값이다
 
