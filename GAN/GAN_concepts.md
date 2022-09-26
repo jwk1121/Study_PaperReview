@@ -1,5 +1,13 @@
 # Generative Adversarial Nets
 
+# 순서
+1. [Abstract](#Abstract)
+2. [Introduction](#Introduction)
+3. [Related work](#Related-work)
+4. [Adversarial nets](#Adversarial-nets)
+5. [Theoretical Results](#Theoretical-Results)
+6. [Experiments](#Experiments)
+
 ## Abstract
 
 `>` Genrative model(G)은 데이터 분포를 capture 한다.
